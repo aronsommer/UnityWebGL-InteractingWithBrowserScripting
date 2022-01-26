@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
-  <!--My code start-->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gluten:bold">
-  <link rel="stylesheet" href="mystyle.css">
-  <div class="btn-container">
-  <div class="btn-center">
-  <!-- unityGame is defied on line 114 and 121 -->
-  <button class="button" onclick="unityGame.SendMessage('MyGameObject', 'MyFunction');">Calling Unity scripts functions from JavaScript</button>
-  </div>
-  </div>
-  <!--My code end-->
+    <!--My code start-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gluten:bold">
+    <link rel="stylesheet" href="mystyle.css">
+    <div class="btn-container">
+    <div class="btn-center">
+    <!-- unityGame is defied on line 114 and 121 -->
+    <button class="button" onclick="unityGame.SendMessage('MyGameObject', 'MyFunction');">Calling Unity scripts functions from JavaScript</button>
+    </div>
+    </div>
+    <!--My code end-->
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600></canvas>
       <div id="unity-loading-bar">
@@ -68,9 +68,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/WebGL.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WebGL.data.gz",
-        frameworkUrl: buildUrl + "/WebGL.framework.js.gz",
-        codeUrl: buildUrl + "/WebGL.wasm.gz",
+        dataUrl: buildUrl + "/WebGL.data",
+        frameworkUrl: buildUrl + "/WebGL.framework.js",
+        codeUrl: buildUrl + "/WebGL.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "InteractingWithBrowserScripting",
