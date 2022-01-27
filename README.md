@@ -1,1 +1,0 @@
-Demo: https://aronsommer.github.io/UnityWebGL-InteractingWithBrowserScripting
